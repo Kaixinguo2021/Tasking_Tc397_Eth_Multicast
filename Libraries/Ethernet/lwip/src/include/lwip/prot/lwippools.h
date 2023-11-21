@@ -1,0 +1,16 @@
+#ifndef __LWIPPOOLS_H
+#define __LWIPPOOLS_H
+
+/* Define three pools with sizes 256, 512, and 1512 bytes */
+ LWIP_MALLOC_MEMPOOL_START
+
+ LWIP_MALLOC_MEMPOOL(20, 256)
+
+ LWIP_MALLOC_MEMPOOL(10, 512)
+
+ LWIP_MALLOC_MEMPOOL(5, 1512)
+
+ LWIP_MALLOC_MEMPOOL_END
+
+#endif  /* __LWIPPOOLS_H */
+

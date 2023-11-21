@@ -1,0 +1,1510 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        		
+        <cconfiguration id="com.infineon.aurix.buildsystem.managed.configuration.binary.777997815">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.infineon.aurix.buildsystem.managed.configuration.binary.777997815" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="com.tasking.managedbuilder.TASKING_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="com.infineon.aurix.buildsystem.managed.TaskingErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="${ProjName}" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="com.infineon.aurix.buildsystem.managed.configuration.binary.777997815" name="Debug" parent="com.infineon.aurix.buildsystem.managed.configuration.binary">
+                    					
+                    <folderInfo id="com.infineon.aurix.buildsystem.managed.configuration.binary.777997815." name="/" resourcePath="">
+                        						
+                        <toolChain id="com.infineon.aurix.buildsystem.managed.toolChain.tasking.exe.binary.271601092" name="AURIX Toolchain" superClass="com.infineon.aurix.buildsystem.managed.toolChain.tasking.exe.binary">
+                            							
+                            <option id="com.tasking.ctc.cpu.1091250452" name="Processor" superClass="com.tasking.ctc.cpu" useByScannerDiscovery="false" value="tc39xb" valueType="string"/>
+                            							
+                            <option id="com.tasking.ctc.package.1566370457" name="Device package" superClass="com.tasking.ctc.package" useByScannerDiscovery="false" value="lfbga292" valueType="string"/>
+                            							
+                            <targetPlatform archList="all" binaryParser="com.tasking.managedbuilder.TASKING_ELF" id="com.infineon.aurix.buildsystem.managed.tasking.targetPlatform.1547360667" isAbstract="false" osList="all" superClass="com.infineon.aurix.buildsystem.managed.tasking.targetPlatform"/>
+                            							
+                            <builder buildPath="${workspace_loc:/Ethernet_1_KIT_TC397_TFT}/Debug" id="com.infineon.aurix.buildsystem.managed.tasking.builder.171703999" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="com.infineon.aurix.buildsystem.managed.tasking.builder"/>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.debug.840015670" name="TASKING C/C++ Compiler" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.debug">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include.1451426830" name="Include paths" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Configurations}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/Phy_Rtl8211f}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/port}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/port/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/port/include/arch}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/src}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/src/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/src/include/compat}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/src/include/compat/posix}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/src/include/compat/posix/arpa}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/src/include/compat/posix/net}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/src/include/compat/posix/sys}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/src/include/compat/stdc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/src/include/lwip}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/src/include/lwip/apps}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/src/include/lwip/priv}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/src/include/lwip/prot}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/src/include/netif}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/src/include/netif/ppp}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/src/include/netif/ppp/polarssl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Infra}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Infra/Platform}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Infra/Platform/Tricore}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Infra/Platform/Tricore/Compilers}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Infra/Sfr}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Infra/Sfr/TC39B}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Infra/Sfr/TC39B/_Reg}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Infra/Ssw}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Infra/Ssw/TC39B}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Infra/Ssw/TC39B/Tricore}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Service}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Service/CpuGeneric}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Service/CpuGeneric/StdIf}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Service/CpuGeneric/SysSe}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Service/CpuGeneric/SysSe/Comm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Service/CpuGeneric/_Utilities}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/UART}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Asclin}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Asclin/Asc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Asclin/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Cpu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Cpu/Irq}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Cpu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Cpu/Trap}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Geth}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Geth/Eth}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Geth/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Gtm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Gtm/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Mtu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Mtu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Pms}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Pms/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Port}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Port/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Scu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Scu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Src}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Src/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Stm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/Stm/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/_Impl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/_Lib}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/_Lib/DataHandling}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC39B/Tricore/_PinMap}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.preprocessor.definedSymbols.1470964976" name="Defined symbols" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.preprocessor.definedSymbols" useByScannerDiscovery="false" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="__CPU__=tc39xb"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.cpp.321569647" name="C++" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.cpp"/>
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.82430131" name="C" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking.783129337" name="TASKING Assembler" superClass="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.assembler.tasking.includePaths.226303443" name="Include paths" superClass="com.infineon.aurix.buildsystem.managed.c.assembler.tasking.includePaths" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Ethernet/lwip/src/include/lwip/prot}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking.input.12569532" superClass="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.c.linker.tasking.1353808535" name="TASKING Linker" superClass="com.infineon.aurix.buildsystem.managed.tool.c.linker.tasking"/>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.printsize.tasking.740336613" name="Print Size" superClass="com.infineon.aurix.buildsystem.managed.tool.printsize.tasking"/>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding="Libraries/iLLD/TC39B/Tricore/Rif/Rif|Libraries/iLLD/TC39B/Tricore/Hssl/Std|Libraries/iLLD/TC39B/Tricore/Ccu6/Timer|Libraries/iLLD/TC39B/Tricore/Ebu/Dram|Libraries/iLLD/TC39B/Tricore/Convctrl|Libraries/iLLD/TC39B/Tricore/Hssl/Hssl|Libraries/iLLD/TC39B/Tricore/Dts/Dts|Libraries/iLLD/TC39B/Tricore/Smu|Libraries/iLLD/TC39B/Tricore/_Build|Libraries/iLLD/TC39B/Tricore/Dts/Std|Libraries/iLLD/TC39B/Tricore/Smu/Std|Libraries/iLLD/TC39B/Tricore/I2c/Std|Libraries/iLLD/TC39B/Tricore/Port/Io|Libraries/iLLD/TC39B/Tricore/I2c|Libraries/iLLD/TC39B/Tricore/Gtm/Tom/Pwm|Libraries/iLLD/TC39B/Tricore/Can/Can|Libraries/iLLD/TC39B/Tricore/Spu/Std|Libraries/iLLD/TC39B/Tricore/Evadc/Adc|Libraries/iLLD/TC39B/Tricore/Emem/Std|Libraries/iLLD/TC39B/Tricore/Gtm/Atom/Dtm_PwmHl|Libraries/iLLD/TC39B/Tricore/Dma/Dma|Libraries/iLLD/TC39B/Tricore/Ccu6/Std|Libraries/Service/CpuGeneric/SysSe/Bsp|Libraries/iLLD/TC39B/Tricore/Evadc|Libraries/iLLD/TC39B/Tricore/Can/Std|Libraries/iLLD/TC39B/Tricore/Gtm/Atom/Pwm|Libraries/iLLD/TC39B/Tricore/Ccu6/TimerWithTrigger|Libraries/iLLD/TC39B/Tricore/Dma|Libraries/iLLD/TC39B/Tricore/Ebu|Libraries/iLLD/TC39B/Tricore/Fce|Libraries/iLLD/TC39B/Tricore/Gtm/Atom|Libraries/iLLD/TC39B/Tricore/Iom/Std|Libraries/iLLD/TC39B/Tricore/Psi5s|Libraries/iLLD/TC39B/Tricore/Sent/Std|Libraries/iLLD/TC39B/Tricore/Spu|Libraries/iLLD/TC39B/Tricore/Edsadc|Libraries/iLLD/TC39B/Tricore/Msc/Std|Libraries/iLLD/TC39B/Tricore/Psi5/Std|Libraries/iLLD/TC39B/Tricore/Gtm/Tim/Timer|Libraries/Service/CpuGeneric/If|Libraries/iLLD/TC39B/Tricore/Gtm/Tim|Libraries/iLLD/TC39B/Tricore/Iom|Libraries/iLLD/TC39B/Tricore/Edsadc/Edsadc|Libraries/iLLD/TC39B/Tricore/Ebu/BFlashSt|Libraries/Service/CpuGeneric/If/Ccu6If|Libraries/iLLD/TC39B/Tricore/Gtm/Tim/In|Libraries/iLLD/TC39B/Tricore/Gpt12/Std|Libraries/iLLD/TC39B/Tricore/Eray/Eray|Libraries/iLLD/TC39B/Tricore/Gtm/Atom/Timer|Libraries/iLLD/TC39B/Tricore/Gtm/Tom/Timer|Libraries/iLLD/TC39B/Tricore/Eray|Libraries/iLLD/TC39B/Tricore/Sdmmc/Emmc|Libraries/iLLD/TC39B/Tricore/Sdmmc/Sd|Libraries/iLLD/TC39B/Tricore/Sent/Sent|Libraries/iLLD/TC39B/Tricore/Iom/Driver|Libraries/iLLD/TC39B/Tricore/Iom/Iom|Libraries/iLLD/TC39B/Tricore/Fce/Crc|Libraries/Service/CpuGeneric/SysSe/Time|Libraries/iLLD/TC39B/Tricore/Edsadc/Std|Libraries/iLLD/TC39B/Tricore/Psi5|Libraries/iLLD/TC39B/Tricore/Flash/Std|Libraries/iLLD/TC39B/Tricore/Eray/Std|Libraries/iLLD/TC39B/Tricore/I2c/I2c|Libraries/iLLD/TC39B/Tricore/Dts|Libraries/iLLD/TC39B/Tricore/Ebu/BFlashSpansion|Libraries/iLLD/TC39B/Tricore/Psi5/Psi5|Libraries/iLLD/TC39B/Tricore/Fce/Std|Libraries/iLLD/TC39B/Tricore/Hssl|Libraries/iLLD/TC39B/Tricore/Smu/Smu|Libraries/iLLD/TC39B/Tricore/Hspdm|Libraries/iLLD/TC39B/Tricore/Sdmmc|Libraries/iLLD/TC39B/Tricore/Msc/Msc|Libraries/iLLD/TC39B/Tricore/Sent|Libraries/iLLD/TC39B/Tricore/Dma/Std|Libraries/iLLD/TC39B/Tricore/Asclin/Lin|Libraries/iLLD/TC39B/Tricore/Ebu/Std|Libraries/iLLD/TC39B/Tricore/Ebu/Sram|Libraries/Service/CpuGeneric/SysSe/General|Libraries/iLLD/TC39B/Tricore/Ccu6/Icu|Libraries/iLLD/TC39B/Tricore/Gtm/Tom/Dtm_PwmHl|Libraries/iLLD/TC39B/Tricore/Gtm/Atom/PwmHl|Libraries/iLLD/TC39B/Tricore/Ccu6|Libraries/iLLD/TC39B/Tricore/Emem|Libraries/iLLD/TC39B/Tricore/Can|Libraries/iLLD/TC39B/Tricore/Gtm/Tom/PwmHl|Libraries/iLLD/TC39B/Tricore/Gpt12|Libraries/iLLD/TC39B/Tricore/Sdmmc/Std|Libraries/iLLD/TC39B/Tricore/Stm/Timer|Libraries/iLLD/TC39B/Tricore/Qspi/SpiSlave|Libraries/iLLD/TC39B/Tricore/Qspi|Libraries/iLLD/TC39B/Tricore/Hspdm/Std|Libraries/iLLD/TC39B/Tricore/Rif/Std|Libraries/iLLD/TC39B/Tricore/Ccu6/PwmBc|Libraries/iLLD/TC39B/Tricore/Qspi/SpiMaster|Libraries/iLLD/TC39B/Tricore/Qspi/Std|Libraries/iLLD/TC39B/Tricore/Rif|Libraries/iLLD/TC39B/Tricore/Psi5s/Std|Libraries/Service/CpuGeneric/SysSe/Math|Libraries/iLLD/TC39B/Tricore/Asclin/Spi|Libraries/iLLD/TC39B/Tricore/Evadc/Std|Libraries/iLLD/TC39B/Tricore/Gtm/Tom|Libraries/iLLD/TC39B/Tricore/Msc|Libraries/iLLD/TC39B/Tricore/Convctrl/Std|Libraries/iLLD/TC39B/Tricore/Gtm/Trig|Libraries/iLLD/TC39B/Tricore/Ccu6/PwmHl|Libraries/iLLD/TC39B/Tricore/Gpt12/IncrEnc|Libraries/iLLD/TC39B/Tricore/Flash|Libraries/iLLD/TC39B/Tricore/Ccu6/TPwm|Libraries/iLLD/TC39B/Tricore/Psi5s/Psi5s|Libraries/iLLD/TC39B/Tricore/_Lib/InternalMux" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        		
+        <cconfiguration id="com.infineon.aurix.buildsystem.managed.configuration.binary.release.1010061534">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.infineon.aurix.buildsystem.managed.configuration.binary.release.1010061534" moduleId="org.eclipse.cdt.core.settings" name="Release">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="com.tasking.managedbuilder.TASKING_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="com.infineon.aurix.buildsystem.managed.TaskingErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="${ProjName}" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" description="" id="com.infineon.aurix.buildsystem.managed.configuration.binary.release.1010061534" name="Release" parent="com.infineon.aurix.buildsystem.managed.configuration.binary.release">
+                    					
+                    <folderInfo id="com.infineon.aurix.buildsystem.managed.configuration.binary.release.1010061534." name="/" resourcePath="">
+                        						
+                        <toolChain id="com.infineon.aurix.buildsystem.managed.toolChain.tasking.exe.binary.release.1009989981" name="AURIX Toolchain" superClass="com.infineon.aurix.buildsystem.managed.toolChain.tasking.exe.binary.release">
+                            							
+                            <option id="com.tasking.ctc.cpu.1128796714" name="Processor" superClass="com.tasking.ctc.cpu" value="tc39xb" valueType="string"/>
+                            							
+                            <option id="com.tasking.ctc.package.2117113312" name="Device package" superClass="com.tasking.ctc.package" value="lfbga292" valueType="string"/>
+                            							
+                            <targetPlatform archList="all" binaryParser="com.tasking.managedbuilder.TASKING_ELF" id="com.infineon.aurix.buildsystem.managed.tasking.targetPlatform.883564510" isAbstract="false" osList="all" superClass="com.infineon.aurix.buildsystem.managed.tasking.targetPlatform"/>
+                            							
+                            <builder buildPath="${workspace_loc:/Ethernet_1_KIT_TC397_TFT}/Release" id="com.infineon.aurix.buildsystem.managed.tasking.builder.127544792" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="com.infineon.aurix.buildsystem.managed.tasking.builder"/>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.release.668340279" name="TASKING C/C++ Compiler" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.release">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include.1860173860" name="Include paths" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Configurations}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Platform}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Platform/Tricore}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Platform/Tricore/Compilers}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Sfr}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Sfr/TC39B}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Sfr/TC39B/_Reg}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Ssw}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Ssw/TC39B}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Ssw/TC39B/Tricore}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/If}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/If/Ccu6If}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/StdIf}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/SysSe}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/SysSe/Bsp}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/SysSe/Comm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/SysSe/General}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/SysSe/Math}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/SysSe/Time}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/_Utilities}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Asclin}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Asclin/Asc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Asclin/Lin}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Asclin/Spi}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Asclin/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Can}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Can/Can}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Can/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/Icu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/PwmBc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/PwmHl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/TPwm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/TimerWithTrigger}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Convctrl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Convctrl/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Cpu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Cpu/Irq}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Cpu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Cpu/Trap}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Dma}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Dma/Dma}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Dma/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Dts}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Dts/Dts}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Dts/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ebu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ebu/BFlashSpansion}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ebu/BFlashSt}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ebu/Dram}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ebu/Sram}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ebu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Edsadc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Edsadc/Edsadc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Edsadc/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Emem}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Emem/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Eray}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Eray/Eray}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Eray/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Evadc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Evadc/Adc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Evadc/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Fce}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Fce/Crc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Fce/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Flash}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Flash/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Geth}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Geth/Eth}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Geth/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gpt12}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gpt12/IncrEnc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gpt12/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Atom}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Atom/Dtm_PwmHl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Atom/Pwm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Atom/PwmHl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Atom/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tim}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tim/In}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tim/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tom}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tom/Dtm_PwmHl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tom/Pwm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tom/PwmHl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tom/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Trig}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Hspdm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Hspdm/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Hssl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Hssl/Hssl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Hssl/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/I2c}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/I2c/I2c}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/I2c/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Iom}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Iom/Driver}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Iom/Iom}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Iom/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Msc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Msc/Msc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Msc/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Mtu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Mtu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Pms}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Pms/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Port}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Port/Io}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Port/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Psi5}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Psi5/Psi5}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Psi5/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Psi5s}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Psi5s/Psi5s}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Psi5s/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Qspi}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Qspi/SpiMaster}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Qspi/SpiSlave}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Qspi/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Rif}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Rif/Rif}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Rif/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Scu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Scu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sdmmc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sdmmc/Emmc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sdmmc/Sd}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sdmmc/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sent/Sent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sent/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Smu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Smu/Smu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Smu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Spu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Spu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Src}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Src/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Stm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Stm/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Stm/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/_Impl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/_Lib}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/_Lib/DataHandling}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/_Lib/InternalMux}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/_PinMap}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.preprocessor.definedSymbols.203457616" name="Defined symbols" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.preprocessor.definedSymbols" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="__CPU__=tc39xb"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.cpp.137355624" name="C++" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.cpp"/>
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.1700615715" name="C" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking.1686216918" name="TASKING Assembler" superClass="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking">
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking.input.55812132" superClass="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.c.linker.tasking.1826631505" name="TASKING Linker" superClass="com.infineon.aurix.buildsystem.managed.tool.c.linker.tasking"/>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.printsize.tasking.1868085622" name="Print Size" superClass="com.infineon.aurix.buildsystem.managed.tool.printsize.tasking"/>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        		
+        <cconfiguration id="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.debug.256320446">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.debug.256320446" moduleId="org.eclipse.cdt.core.settings" name="External GCC - Debug">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="${ProjName}" buildArtefactType="com.infineon.aurix.buildsystem.managed.buildArtefactType.elf" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.infineon.aurix.buildsystem.managed.buildArtefactType.elf,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.debug.256320446" name="External GCC - Debug" parent="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.debug">
+                    					
+                    <folderInfo id="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.debug.256320446." name="/" resourcePath="">
+                        						
+                        <toolChain id="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.debug.647865273" name="AURIX External GCC Toolchain" superClass="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.debug">
+                            							
+                            <option id="com.infineon.aurix.buildsystem.managed.gcc.c.option.mtc.168278497" name="Instruction set" superClass="com.infineon.aurix.buildsystem.managed.gcc.c.option.mtc" value="com.infineon.aurix.buildsystem.managed.gcc.c.option.mtc.mtc162" valueType="enumerated"/>
+                            							
+                            <targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.infineon.aurix.buildsystem.managed.gcc.targetPlatform.1898544594" isAbstract="false" osList="all" superClass="com.infineon.aurix.buildsystem.managed.gcc.targetPlatform"/>
+                            							
+                            <builder buildPath="${workspace_loc:/Ethernet_1_KIT_TC397_TFT}/External GCC - Debug" id="com.infineon.aurix.buildsystem.managed.gcc.builder.2117635817" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="com.infineon.aurix.buildsystem.managed.gcc.builder"/>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.1905561567" name="AURIX GCC Compiler" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler">
+                                								
+                                <option defaultValue="gnu.c.optimization.level.none" id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.optimization.level.267922946" name="Optimization Level" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.optimization.level" value="" valueType="enumerated"/>
+                                								
+                                <option defaultValue="gnu.c.debugging.level.max" id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.debugging.level.1359083129" name="Debug Level" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.debugging.level" value="" valueType="enumerated"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.include.paths.421994818" name="Include paths (-I)" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.include.paths" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Configurations}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Platform}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Platform/Tricore}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Platform/Tricore/Compilers}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Sfr}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Sfr/TC39B}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Sfr/TC39B/_Reg}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Ssw}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Ssw/TC39B}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Ssw/TC39B/Tricore}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/If}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/If/Ccu6If}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/StdIf}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/SysSe}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/SysSe/Bsp}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/SysSe/Comm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/SysSe/General}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/SysSe/Math}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/SysSe/Time}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/_Utilities}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Asclin}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Asclin/Asc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Asclin/Lin}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Asclin/Spi}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Asclin/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Can}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Can/Can}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Can/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/Icu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/PwmBc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/PwmHl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/TPwm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/TimerWithTrigger}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Convctrl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Convctrl/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Cpu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Cpu/Irq}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Cpu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Cpu/Trap}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Dma}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Dma/Dma}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Dma/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Dts}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Dts/Dts}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Dts/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ebu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ebu/BFlashSpansion}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ebu/BFlashSt}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ebu/Dram}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ebu/Sram}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ebu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Edsadc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Edsadc/Edsadc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Edsadc/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Emem}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Emem/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Eray}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Eray/Eray}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Eray/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Evadc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Evadc/Adc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Evadc/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Fce}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Fce/Crc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Fce/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Flash}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Flash/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Geth}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Geth/Eth}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Geth/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gpt12}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gpt12/IncrEnc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gpt12/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Atom}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Atom/Dtm_PwmHl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Atom/Pwm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Atom/PwmHl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Atom/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tim}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tim/In}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tim/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tom}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tom/Dtm_PwmHl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tom/Pwm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tom/PwmHl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tom/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Trig}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Hspdm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Hspdm/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Hssl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Hssl/Hssl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Hssl/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/I2c}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/I2c/I2c}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/I2c/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Iom}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Iom/Driver}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Iom/Iom}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Iom/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Msc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Msc/Msc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Msc/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Mtu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Mtu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Pms}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Pms/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Port}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Port/Io}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Port/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Psi5}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Psi5/Psi5}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Psi5/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Psi5s}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Psi5s/Psi5s}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Psi5s/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Qspi}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Qspi/SpiMaster}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Qspi/SpiSlave}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Qspi/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Rif}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Rif/Rif}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Rif/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Scu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Scu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sdmmc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sdmmc/Emmc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sdmmc/Sd}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sdmmc/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sent/Sent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sent/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Smu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Smu/Smu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Smu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Spu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Spu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Src}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Src/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Stm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Stm/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Stm/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/_Impl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/_Lib}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/_Lib/DataHandling}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/_Lib/InternalMux}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/_PinMap}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.inputType.328697207" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.inputType"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.141078785" name="AURIX G++ Compiler" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler">
+                                								
+                                <option id="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.optimization.level.1654152788" name="Optimization Level" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+                                								
+                                <option defaultValue="gnu.cpp.compiler.debugging.level.max" id="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.debugging.level.1334343568" name="Debug Level" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.debugging.level" valueType="enumerated"/>
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.inputType.1840286269" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.inputType"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.assembler.376826010" name="AURIX GCC Assembler" superClass="com.infineon.aurix.buildsystem.managed.tool.assembler">
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.tool.assembler.inputType.739805726" name="Assembler Input" superClass="com.infineon.aurix.buildsystem.managed.tool.assembler.inputType"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.c.linker.1702136822" name="AURIX GCC Linker" superClass="com.infineon.aurix.buildsystem.managed.tool.c.linker"/>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.cpp.linker.1958076732" name="AURIX G++ Linker" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.linker">
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.cpp.linker.inputType.1739492621" superClass="com.infineon.aurix.buildsystem.managed.cpp.linker.inputType"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.c.objcopy.1490788699" name="AURIX Object Copy" superClass="com.infineon.aurix.buildsystem.managed.tool.c.objcopy"/>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.objdump.564119704" name="AURIX Create Listing" superClass="com.infineon.aurix.buildsystem.managed.tool.objdump"/>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.printsize.1245374325" name="AURIX Print Size" superClass="com.infineon.aurix.buildsystem.managed.tool.printsize"/>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        		
+        <cconfiguration id="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.release.1708355200">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.release.1708355200" moduleId="org.eclipse.cdt.core.settings" name="External GCC - Release">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="${ProjName}" buildArtefactType="com.infineon.aurix.buildsystem.managed.buildArtefactType.elf" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.infineon.aurix.buildsystem.managed.buildArtefactType.elf,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" description="" id="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.release.1708355200" name="External GCC - Release" parent="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.release">
+                    					
+                    <folderInfo id="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.release.1708355200." name="/" resourcePath="">
+                        						
+                        <toolChain id="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.release.535871975" name="AURIX External GCC Toolchain" superClass="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.release">
+                            							
+                            <option id="com.infineon.aurix.buildsystem.managed.gcc.c.option.mtc.667152215" name="Instruction set" superClass="com.infineon.aurix.buildsystem.managed.gcc.c.option.mtc" value="com.infineon.aurix.buildsystem.managed.gcc.c.option.mtc.mtc162" valueType="enumerated"/>
+                            							
+                            <targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.infineon.aurix.buildsystem.managed.gcc.targetPlatform.46392538" isAbstract="false" osList="all" superClass="com.infineon.aurix.buildsystem.managed.gcc.targetPlatform"/>
+                            							
+                            <builder buildPath="${workspace_loc:/Ethernet_1_KIT_TC397_TFT}/External GCC - Release" id="com.infineon.aurix.buildsystem.managed.gcc.builder.1963075824" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="com.infineon.aurix.buildsystem.managed.gcc.builder"/>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.674264238" name="AURIX GCC Compiler" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler">
+                                								
+                                <option defaultValue="gnu.c.optimization.level.most" id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.optimization.level.504671601" name="Optimization Level" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.optimization.level" value="" valueType="enumerated"/>
+                                								
+                                <option defaultValue="gnu.c.debugging.level.none" id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.debugging.level.1664360525" name="Debug Level" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.debugging.level" value="" valueType="enumerated"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.include.paths.778027312" name="Include paths (-I)" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.include.paths" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Configurations}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Platform}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Platform/Tricore}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Platform/Tricore/Compilers}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Sfr}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Sfr/TC39B}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Sfr/TC39B/_Reg}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Ssw}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Ssw/TC39B}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Infra/Ssw/TC39B/Tricore}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/If}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/If/Ccu6If}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/StdIf}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/SysSe}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/SysSe/Bsp}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/SysSe/Comm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/SysSe/General}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/SysSe/Math}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/SysSe/Time}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/Service/CpuGeneric/_Utilities}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Asclin}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Asclin/Asc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Asclin/Lin}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Asclin/Spi}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Asclin/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Can}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Can/Can}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Can/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/Icu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/PwmBc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/PwmHl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/TPwm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ccu6/TimerWithTrigger}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Convctrl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Convctrl/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Cpu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Cpu/Irq}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Cpu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Cpu/Trap}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Dma}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Dma/Dma}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Dma/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Dts}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Dts/Dts}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Dts/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ebu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ebu/BFlashSpansion}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ebu/BFlashSt}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ebu/Dram}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ebu/Sram}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Ebu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Edsadc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Edsadc/Edsadc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Edsadc/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Emem}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Emem/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Eray}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Eray/Eray}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Eray/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Evadc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Evadc/Adc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Evadc/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Fce}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Fce/Crc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Fce/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Flash}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Flash/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Geth}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Geth/Eth}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Geth/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gpt12}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gpt12/IncrEnc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gpt12/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Atom}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Atom/Dtm_PwmHl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Atom/Pwm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Atom/PwmHl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Atom/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tim}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tim/In}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tim/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tom}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tom/Dtm_PwmHl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tom/Pwm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tom/PwmHl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Tom/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Gtm/Trig}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Hspdm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Hspdm/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Hssl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Hssl/Hssl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Hssl/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/I2c}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/I2c/I2c}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/I2c/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Iom}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Iom/Driver}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Iom/Iom}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Iom/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Msc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Msc/Msc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Msc/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Mtu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Mtu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Pms}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Pms/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Port}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Port/Io}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Port/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Psi5}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Psi5/Psi5}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Psi5/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Psi5s}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Psi5s/Psi5s}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Psi5s/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Qspi}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Qspi/SpiMaster}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Qspi/SpiSlave}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Qspi/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Rif}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Rif/Rif}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Rif/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Scu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Scu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sdmmc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sdmmc/Emmc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sdmmc/Sd}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sdmmc/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sent/Sent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Sent/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Smu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Smu/Smu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Smu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Spu}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Spu/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Src}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Src/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Stm}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Stm/Std}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/Stm/Timer}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/_Impl}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/_Lib}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/_Lib/DataHandling}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/_Lib/InternalMux}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/Ethernet_Test_1_KIT_TC397_TFT/Libraries/iLLD/TC39B/Tricore/_PinMap}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.inputType.1463350894" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.inputType"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.1100380346" name="AURIX G++ Compiler" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler">
+                                								
+                                <option id="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.optimization.level.1854462782" name="Optimization Level" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+                                								
+                                <option defaultValue="gnu.cpp.compiler.debugging.level.none" id="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.debugging.level.591157358" name="Debug Level" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.debugging.level" valueType="enumerated"/>
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.inputType.1500276748" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.inputType"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.assembler.1214704367" name="AURIX GCC Assembler" superClass="com.infineon.aurix.buildsystem.managed.tool.assembler">
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.tool.assembler.inputType.1045237269" name="Assembler Input" superClass="com.infineon.aurix.buildsystem.managed.tool.assembler.inputType"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.c.linker.1994332931" name="AURIX GCC Linker" superClass="com.infineon.aurix.buildsystem.managed.tool.c.linker"/>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.cpp.linker.2001696217" name="AURIX G++ Linker" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.linker">
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.cpp.linker.inputType.1086797140" superClass="com.infineon.aurix.buildsystem.managed.cpp.linker.inputType"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.c.objcopy.863099391" name="AURIX Object Copy" superClass="com.infineon.aurix.buildsystem.managed.tool.c.objcopy"/>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.objdump.1475724123" name="AURIX Create Listing" superClass="com.infineon.aurix.buildsystem.managed.tool.objdump"/>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.printsize.439517960" name="AURIX Print Size" superClass="com.infineon.aurix.buildsystem.managed.tool.printsize"/>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        		
+        <project id="Ethernet_1_KIT_TC397_TFT.com.infineon.aurix.buildsystem.managed.projectType.817026653" name="AURIX Project" projectType="com.infineon.aurix.buildsystem.managed.projectType"/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="scannerConfiguration">
+        		
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+        		
+        <scannerConfigBuildInfo instanceId="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.release.1708355200;com.infineon.aurix.buildsystem.managed.external.gcc.configuration.release.1708355200.;com.infineon.aurix.buildsystem.managed.tool.c.compiler.674264238;com.infineon.aurix.buildsystem.managed.tool.c.compiler.inputType.1463350894">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.debug.256320446;com.infineon.aurix.buildsystem.managed.external.gcc.configuration.debug.256320446.;com.infineon.aurix.buildsystem.managed.tool.c.compiler.1905561567;com.infineon.aurix.buildsystem.managed.tool.c.compiler.inputType.328697207">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.debug.256320446;com.infineon.aurix.buildsystem.managed.external.gcc.configuration.debug.256320446.;com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.141078785;com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.inputType.1840286269">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="com.infineon.aurix.buildsystem.managed.external.gcc.configuration.release.1708355200;com.infineon.aurix.buildsystem.managed.external.gcc.configuration.release.1708355200.;com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.1100380346;com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.inputType.1500276748">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+        		
+        <project-mappings>
+            			
+            <content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cHeader" language="com.tasking.dbg.ctc.clanguage"/>
+            			
+            <content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cSource" language="com.tasking.dbg.ctc.clanguage"/>
+            			
+            <content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxHeader" language="com.tasking.dbg.ctc.cpplanguage"/>
+            			
+            <content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxSource" language="com.tasking.dbg.ctc.cpplanguage"/>
+            		
+        </project-mappings>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="refreshScope"/>
+    	
+    <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+    
+</cproject>
