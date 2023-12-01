@@ -1,0 +1,41 @@
+/*@!Encoding:936*/
+variables
+{
+  UdpSocket gSocket;
+  char text[100];
+  int  sendCnt;
+  msTimer waitTime;
+}
+
+on start
+{
+  /* Open an UDP socket. As source address 
+     192.168.0.10 is used,Port = 49153 */
+  gSocket = UdpSocket::Open( IP_Endpoint(192.168.0.10:49153) );
+
+  if (IpGetLastError() != 0)
+  {
+    // if UdpSocket::Open fails, we print a message to the write window
+    write( "<%BASE_FILE_NAME%> UdpSocket::Open failed with result %d", IpGetLastError() );
+  }
+  
+  setTimer(waitTime,1);
+}
+
+on preStop
+{
+  cancelTimer(waitTime);
+  // Close socket on measurement stop
+  gSocket.Close();
+}
+
+on timer waitTime
+{ 
+  text[0] = sendCnt++;
+  text[1] = 0x55;
+  text[2] = 0xAA;
+  // send text to IP address/UDP port of the receiver
+  gSocket.SendTo( IP_Endpoint(192.168.0.11:49155), text, strlen(text) );
+  write ("Send UDP Info.");
+  setTimer(waitTime,100);
+}

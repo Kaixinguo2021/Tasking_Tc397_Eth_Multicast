@@ -480,6 +480,7 @@ err_t ifx_netif_input(netif_t *netif)
     /* IP or ARP packet? */
     case ETHTYPE_IP:
     case ETHTYPE_ARP:
+    case ETHTYPE_VLAN:
 #if PPPOE_SUPPORT
     /* PPPoE packet? */
     case ETHTYPE_PPPOEDISC:
@@ -489,7 +490,7 @@ err_t ifx_netif_input(netif_t *netif)
         /* full packet send to tcpip_thread to process */
         if (netif->input(p, netif) != ERR_OK)
         {
-            LWIP_DEBUGF(NETIF_DEBUG, ("ifx_netif_input: IP input error\n"));
+            LWIP_DEBUGF(NETIF_DEBUG | LWIP_DBG_TRACE | LWIP_DBG_STATE, ("ifx_netif_input: IP input error\n"));
             pbuf_free(p);
             p = NULL;
         }
@@ -497,7 +498,7 @@ err_t ifx_netif_input(netif_t *netif)
         break;
 
     default:
-        LWIP_DEBUGF(NETIF_DEBUG, ("ifx_netif_input: type unknown\n"));
+        LWIP_DEBUGF(NETIF_DEBUG | LWIP_DBG_TRACE | LWIP_DBG_STATE, ("ifx_netif_input: type unknown\n"));
         pbuf_free(p);
         p = NULL;
         break;

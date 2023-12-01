@@ -201,6 +201,9 @@ void IfxGeth_Eth_configureMacCore(IfxGeth_Eth *geth, IfxGeth_Eth_MacConfig *macC
     IfxGeth_mac_setPromiscuousMode(geth->gethSFR, TRUE);
     IfxGeth_mac_setAllMulticastPassing(geth->gethSFR, TRUE);
 
+    /* Set Send Vlan */
+    IfxGeth_mac_writeQueueVlanTag(geth->gethSFR, IfxGeth_MtlQueue_0, 0x0A);
+
     /* set MAC Address */
     IfxGeth_mac_setMacAddress(geth->gethSFR, macConfig->macAddress);
 }
@@ -613,7 +616,8 @@ void IfxGeth_Eth_initTransmitDescriptors(IfxGeth_Eth *geth, IfxGeth_Eth_TxChanne
         descr->TDES1.U           = 0; /* buffer2 not used */
 
         descr->TDES2.R.B1L       = config->txBuffer1Size;
-        descr->TDES2.R.VTIR      = 0; /* do not use VLAN tag */
+        /* Insert a VLAN tag */
+        descr->TDES2.R.VTIR      = 2; 
         descr->TDES2.R.B2L       = 0; /* buffer2 not used */
         descr->TDES2.R.TTSE_TMWD = 0; /* timestamp not used */
         descr->TDES2.R.IOC       = 0; /* interrupt disabled */

@@ -520,11 +520,12 @@ boolean IfxGeth_mac_writeQueueVlanTag(Ifx_GETH *gethSFR, IfxGeth_MtlQueue queueI
     {
         return FALSE;
     }
+    /* VLAN Tag Control in Transmit Packets */
+    vlan_incl.B.VLC          = 2;
 
-    vlan_incl.B.CBTI         = 1;
+    vlan_incl.B.RDWR         = 1;
     vlan_incl.B.CSVL         = 0;
     vlan_incl.B.VLT          = vLanTag;
-    vlan_incl.B.RDWR         = 1;
     vlan_incl.B.ADDR         = queueId;
 
     gethSFR->MAC_VLAN_INCL.U = vlan_incl.U;
